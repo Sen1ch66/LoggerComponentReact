@@ -1,0 +1,15 @@
+.Logs{
+    background-color: black;
+    padding: 30px 20px;
+    box-shadow: 2px 9px 5px rgb(148, 48, 48);
+    h1{
+        color: white;
+    }
+    div{
+        p{
+            color: white;
+            font-size: 20px;
+            display: none;
+        }
+    }
+}

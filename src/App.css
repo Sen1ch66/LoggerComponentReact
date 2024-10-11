@@ -1,0 +1,8 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.App{
+    background-color: rgb(158, 109, 109);
+    padding: 10px 20px;
+}
