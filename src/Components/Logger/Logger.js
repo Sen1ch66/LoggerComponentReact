@@ -1,11 +1,11 @@
 import './Logger.css'
-function Logger(props){
-    return(
-        <section className="Logs">
+function Logger({ content }) {
+    return (
+        <section className="LogsSection">
             <h1>Logs have created</h1>
-            <div>
-                
-            </div>
+            {content?.map((content, index) => (
+                <p key={index} className='logs'>{content}</p>
+            ))}
         </section>
     )
 }
