@@ -15,7 +15,6 @@ function App(){
   };
 return(
   <div className='LifeLoopComponent'>
-    <Counter onButtonClick={handleButtonClick}/>
     <Button variant="contained" onClick={addComponent}>Add component</Button>
     <div>{component.map(component => component)}</div>
     <Logs content={content}/>

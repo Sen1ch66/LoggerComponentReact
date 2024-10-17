@@ -1,5 +1,6 @@
 import './Logger.css'
-function Logger({ content }) {
+function Logger(props) {
+    const {content} = props
     return (
         <section className="LogsSection">
             <h1>Logs have created</h1>
