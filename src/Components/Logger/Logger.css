@@ -1,7 +1,9 @@
-.Logs{
+.LogsSection{
     background-color: black;
     padding: 30px 20px;
     box-shadow: 2px 9px 5px rgb(148, 48, 48);
+    max-height: 250px;
+    overflow-y: scroll;
     h1{
         color: white;
     }
@@ -12,4 +14,7 @@
             display: none;
         }
     }
+}
+.logs{
+    color: white;
 }
